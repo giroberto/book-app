@@ -1,0 +1,37 @@
+{
+  "root": true,
+  "env": {
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "prettier"
+  ],
+  "extends": [
+    "airbnb-typescript",
+    "plugin:react/recommended",
+    "plugin:unicorn/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "settings": {
+    "react": {
+      "version": "16.13" // React version. "detect" automatically picks the version you have installed.
+    }
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": ["off"],
+    "unicorn/filename-case": [
+      "error",
+      {
+        "cases": {
+          "pascalCase": true,
+          "camelCase": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "book-app",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@pika/react": "^16.13.1",
+    "@pika/react-dom": "^16.13.1",
+    "@reach/router": "^1.3.3",
+    "react-icons": "^3.10.0",
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^3.1.0",
+    "eslint": "^7.1.0",
+    "eslint-config-airbnb-typescript": "^8.0.2",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-unicorn": "^20.1.0",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.5",
+    "vite": "^0.20.3",
+    "vite-plugin-react": "^2.0.3"
+  }
+}
